@@ -1,0 +1,12 @@
+{
+  "name": "agent-date",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Every person is an agent. Agents read a LinkedIn + public Instagram, date each other on their person's behalf, and rank who fits best.",
+  "scripts": {
+    "start": "node dev.mjs",
+    "seed": "node scripts/seed.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,8 @@
+{
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "public",
+  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/index" }],
+  "functions": { "api/index.mjs": { "includeFiles": "{data/**,lib/**}", "maxDuration": 60 } }
+}
